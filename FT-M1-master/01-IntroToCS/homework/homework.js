@@ -5,7 +5,7 @@ function BinarioADecimal(num) {
   let decimal = 0
   var rev = num.split('').reverse().join('')
 
-  for (let i = 0; i > rev.length; i++) {
+  for (let i = 0; i <  rev.length; i++) {
     decimal += rev[i] * 2 ** i
   }
   return decimal
