@@ -10,6 +10,7 @@ function BinarioADecimal(num) {
   }
   return decimal
 }
+console.log(BinarioADecimal(1001110001000))
 
 function DecimalABinario(num) {
   // tu codigo aca
@@ -21,7 +22,7 @@ function DecimalABinario(num) {
   var binario = res.split('').reverse().join('')
   return binario
 }
-
+console.log(DecimalABinario(5000))
 
 module.exports = {
   BinarioADecimal,
